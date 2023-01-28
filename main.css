@@ -50,15 +50,16 @@ button {
 }
 
 .container {
-    width: 1364px;
+    width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .button {
     background: #f5170e;
     border-radius: 35px;
     color: #fff;
-    font-weight: 700px;
+    font-weight: bold;
     font-size: 14px;
     line-height: 19px;
     align-items: center;
@@ -67,17 +68,35 @@ button {
     cursor: pointer;
 }
 
+
 button:hover {
-    background: #fff;
-    color: #f5170e;
-    border-color: #f5170e;
+    background: #DA0100;
+    box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    color: #fff;
+}
+
+.button--size-middle {
+    padding: 18px 29px 18px 30px;
+
+}
+
+.button--theme-border {
+    border-color: #F5170E;
+    background-color: #fff;
+    color: #F5170E;
+}
+
+.button--theme-border:hover {
+    border-color: #F5170E;
+    background-color: #F5170E;
+    color: #FFF;
 }
 
 .header {
     height: 120px;
     position: relative;
     min-height: 123.36px;
-    margin-bottom: 110px;
+    margin-bottom: 71px;
 }
 
 .logo,
@@ -94,17 +113,15 @@ button:hover {
 
 .menu {
     top: 42px;
-    left: 200px;
+    left: 164px;
     display: inline-block;
-    width: 310px;
 }
 
 .contacts {
     top: 26px;
-    left: 1160px;
+    right: 0px;
     font-style: normal;
     text-align: right;
-    width: 191px;
 }
 
 .contacts__tel {
@@ -117,11 +134,18 @@ button:hover {
 .contacts__graph {
     font-size: 13px;
     text-decoration: underline;
+    margin-top: -5px;
+}
+
+.contacts__text {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A
 }
 
 .menu__item {
     display: inline-block;
-    margin-right: 72px;
+    margin-right: 51px;
 }
 
 .menu__link {
@@ -132,58 +156,98 @@ button:hover {
     margin-right: 0;
 }
 
-.preview {
+.main {
+    margin-bottom: 53px;
+}
+
+з .preview {
     text-align: left;
-    margin-bottom: 300px;
+    margin-bottom: 244px;
 }
 
 .preview__title {
-    font-size: 72px;
     font-weight: 700;
-    line-height: 100px;
-    margin-bottom: 28px;
-    width: 511px;
-    height: 250px;
+    font-size: 72px;
     line-height: 98px;
+    width: 511px;
+    margin-bottom: 27px;
+
 }
 
 .preview__text {
     font-size: 18px;
+    line-height: 20px;
     margin-bottom: 33px;
+}
+
+.options {
+    margin-bottom: 125px;
 }
 
 .options__item {
     display: inline-block;
     width: 362px;
-    height: 450px;
+    min-height: 450px;
     background: #fff;
     border-radius: 5px;
     color: black;
-    margin-right: 30px;
-    margin-bottom: 310px;
+    margin-right: 23px;
 }
 
 .options__item:last-child {
     margin-right: 0;
 }
 
+.options__img-box {
+    width: 100%;
+    height: 144px;
+}
+
+.options__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
 .options__content {
-    padding: 33px;
+    padding: 33px 33px 25px 22px;
 }
 
 .options__block-item {
     display: inline-block;
-    margin-bottom: 25px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.options__block-item:last-child {
+    margin-right: 0;
+}
+
+.options__block {
+    padding-left: 6px;
+    margin-bottom: 23px;
 }
 
 .options__block-image,
 .options__block-text {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.options__block-image {
+    margin-right: 10px;
+}
+
+.options__block-icon {
+    display: block;
 }
 
 .options__block-text {
+    font-size: 16px;
     width: 90px;
-    margin-right: 20px;
+    height: 22px;
+    color: #666666;
 }
 
 .options__title,
@@ -194,57 +258,86 @@ button:hover {
 .options__title {
     font-weight: 700;
     font-size: 36px;
-    margin-bottom: 50px;
+    line-height: 49px;
+    margin-bottom: 51px;
+}
+
+.options__icon-box {
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .options__subtitle {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    display: flex;
-    align-items: flex-end;
-    margin-bottom: 23px;
+    margin-bottom: 21px;
 }
 
 .options__text {
+    line-height: 21px;
     margin-bottom: 24px;
 }
 
+.news {
+    margin-bottom: 144px;
+}
+
 .news__title {
-    width: 325px;
-    height: 49px;
+    line-height: 49px;
     font-weight: 700;
     font-size: 36px;
     margin-bottom: 51px;
 }
 
-.news__subtitle {
-    font-weight: 700px;
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-.news__date {
-    font-size: 14px;
+.news__list {
+    margin-bottom: 49px;
 }
 
 .news__item {
     display: inline-block;
     width: 557px;
-    height: 394px;
+    min-height: 394px;
     position: relative;
-    margin-right: 25px;
-    margin-bottom: 57px;
+    margin-right: 22px;
+}
+
+.news__item:last-child {
+    margin-right: 0;
 }
 
 .news__img {
-    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .news__content {
     position: absolute;
-    bottom: 47px;
-    left: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    min-height: 175px;
+}
+
+
+.news__date {
+    line-height: 21px;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.news__subtitle {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.news__text {
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .paginator {
@@ -258,12 +351,19 @@ button:hover {
 }
 
 .paginator__display {
-    width: 125px;
-    margin-bottom: 150px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 25px;
+}
+
+.paginator__item {
+    margin-right: -2px;
 }
 
 .paginator__link {
-    display: inline-block;
+    display: block;
+    width: 32px;
+    height: 32px;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
@@ -277,11 +377,17 @@ button:hover {
     color: #f5170e;
 }
 
+.about__container {
+    padding-top: 97px;
+}
+
 .about__img {
     width: 490px;
     height: 505px;
     border-radius: 5px;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .about__img-picture {
@@ -293,14 +399,12 @@ button:hover {
 
 .about__content {
     width: 785px;
-    height: 455px;
+    min-height: 455px;
     position: relative;
     padding: 70px 202px 66px 81px;
-    margin-bottom: 200px;
     background: url(img/mountains.png) center center/ cover no-repeat;
     color: #060606;
     margin-left: 352px;
-    margin-top: 97px;
     display: inline-block;
 }
 
@@ -322,25 +426,46 @@ button:hover {
 }
 
 .footer {
+    height: 140px;
+}
+
+.footer__content {
     border-top: 4px solid rgba(255, 255, 255, .1);
     position: relative;
 }
 
-.socials {
-    top: 20px;
+.footer__logo {
+    top: 45px;
+    left: 1px;
+}
+
+.footer__menu {
+    top: 59px;
+    ;
+    left: 163px;
+}
+
+.footer__socials {
+    top: 51px;
     position: absolute;
-    right: 300px;
+    right: 267px;
+}
+
+.footer__contacts {
+    top: 43px;
+    right: 0;
 }
 
 .socials__item {
     display: inline-block;
+    margin-right: 5px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
 }
 
 .socials__link {
     width: 36px;
     height: 36px;
-}
-
-.contacts {
-    width: 210px;
 }
