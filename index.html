@@ -4,46 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=1200,initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <title>проект</title>
 </head>
 
 <body>
     <div class="wrapper main-page-wrapper">
-
         <header class="header">
-            <div class="container">
-                <div class="logo">
-                    <a href="#" class="logo__link">
-                        <img src="img/logo.png" alt="logo" class="logo__img">
-                    </a>
+             <div class="container">
+                <div class="header__col">
+                    <div class="logo">
+                        <a href="#" class="logo__link">
+                            <img src="img/logo.png" alt="logo" class="logo__img">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a href="#" class="menu__link"></a>Главная</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Услуги</a>
+                            </li>
+                            <li class="menu__item">
+                                <a href="#" class="menu__link">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link"></a>Главная</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Услуги</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">Отзывы</a>
-                        </li>
-                    </ul>
-                </nav>
-                <address class="contacts">
-                    <a href="#" class="contacts__tel">8 800 700 30 30</a>
-                    <div class="contacts__graph">График работы</div>
-                </address>
+                <div class="header__col header__col--align--right">
+                    <address class="contacts">
+                        <a href="#" class="contacts__tel">8 800 700 30 30</a>
+                        <div class="contacts__graph">График работы</div>
+                    </address>
+                </div>
             </div>
         </header>
         <main class="main">
             <section class="preview">
-                <div class="container">
+                <div class="container preview__container">
                     <h1 class="preview__title">Авторские туры по Азии</h1>
                     <div class="preview__text">Открой для себя Азию</div>
                     <div class="preview__button">
@@ -64,7 +68,7 @@
                                 <img src="img/river.png" alt="" class="options__img">
                             </div>
                             <div class="options__content">
-                                <div class="options__subtitle">Таиланд</div>
+                                <div class="options__subtitle">Тайланд</div>
                                 <ul class="options__block">
                                     <li class="options__block-item">
                                         <div class="options__block-image">
@@ -221,58 +225,60 @@
             </section>
         </main>
         <footer class="footer">
-
             <div class="container">
                 <div class="footer__content">
-                    <div class="logo footer__logo">
-                        <a href="#" class="logo__link">
-                            <img src="img/logo.png" alt="logo" class="logo__img">
-                        </a>
+                    <div class="footer__col">
+                        <div class="logo footer__logo">
+                            <a href="#" class="logo__link">
+                                <img src="img/logo.png" alt="logo" class="logo__img">
+                            </a>
+                        </div>
+                        <nav class="menu footer__menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Главная</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Услуги</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#" class="menu__link">Отзывы</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav class="menu footer__menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Главная</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Услуги</a>
-                            </li>
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="socials footer__socials">
-                        <ul class="socials__list">
-                            <li class="socials__item">
-                                <a href="#" class="social__link">
-                                    <img src="img/telegram.png" alt="телеграмм" class="social__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="social__link">
-                                    <img src="img/vk.png" alt="вк" class="social__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="social__link">
-                                    <img src="img/f.png" alt="фэйсбук" class="social__icon">
-                                </a>
-                            </li>
-                            <li class="socials__item">
-                                <a href="#" class="social__link">
-                                    <img src="img/in.png" alt="инстаграмм" class="social__icon">
-                                </a>
-                            </li>
-                        </ul>
+                    <div class="footer__col footer__col--align--right">
+                        <div class="socials footer__socials">
+                            <ul class="socials__list">
+                                <li class="socials__item">
+                                    <a href="#" class="social__link">
+                                        <img src="img/telegram.png" alt="телеграмм" class="social__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="social__link">
+                                        <img src="img/vk.png" alt="вк" class="social__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="social__link">
+                                        <img src="img/f.png" alt="фэйсбук" class="social__icon">
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a href="#" class="social__link">
+                                        <img src="img/in.png" alt="инстаграмм" class="social__icon">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <address class="contacts footer__contacts">
+                            <div class="contacts__text">Бесплатный звонок по России</div>
+                            <a href="#" class="contacts__tel">8 800 700 30 30</a>
+                        </address>
                     </div>
-                    <address class="contacts footer__contacts">
-                        <div class="contacts__text">Бесплатный звонок по России</div>
-                        <a href="#" class="contacts__tel">8 800 700 30 30</a>
-                    </address>
                 </div>
             </div>
-
         </footer>
     </div>
 
