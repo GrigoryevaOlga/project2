@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <title>проект</title>
 </head>
@@ -16,10 +18,10 @@
 <body>
     <div class="wrapper main-page-wrapper">
         <header class="header">
-             <div class="container">
+            <div class="container header__container">
                 <div class="header__col">
-                    <div class="logo">
-                        <a href="#" class="logo__link">
+                    <div class="logo logo--main">
+                        <a href="./welcome.html" class="logo__link">
                             <img src="img/logo.png" alt="logo" class="logo__img">
                         </a>
                     </div>
@@ -32,7 +34,7 @@
                                 <a href="./service.html" class="menu__link">Услуги</a>
                             </li>
                             <li class="menu__item">
-                                <a href="#" class="menu__link">Отзывы</a>
+                                <a href="./reviews.html" class="menu__link">Отзывы</a>
                             </li>
                         </ul>
                     </nav>
@@ -40,18 +42,28 @@
                 <div class="header__col header__col--align--right">
                     <address class="contacts">
                         <a href="#" class="contacts__tel">8 800 700 30 30</a>
-                        <div class="contacts__graph">График работы</div>
+                        <div class="contacts__graph">
+                           <a href="#"class="contacts__link">График работы</a>
+                            <div class="contacts__menu">
+                                <ul class="contacts__list"> 
+                                    <li class="contacts__item-time">пн-вс: 09:00 - 20:00</li>
+                                    <li class="contacts__item-dinner">Обед: 14:00-14:30</li>           
+                               </ul>
+                            </div>
+                        </div>
                     </address>
                 </div>
             </div>
         </header>
         <main class="main">
             <section class="preview">
-                <div class="container preview__container">
-                    <h1 class="preview__title">Авторские туры по Азии</h1>
-                    <div class="preview__text">Открой для себя Азию</div>
-                    <div class="preview__button">
-                        <button class="button">Подробнее</button>
+                <div class="container">
+                    <div class="preview__container">
+                        <h1 class="preview__title">Авторские туры по Азии</h1>
+                        <div class="preview__text">Открой для себя Азию</div>
+                        <div class="preview__button">
+                            <button class="button">Подробнее</button>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -188,7 +200,7 @@
                                 <a href="./service.html" class="paginator__link">2</a>
                             </li>
                             <li class="paginator__item">
-                                <a href="#" class="paginator__link">3</a>
+                                <a href="./reviews.html" class="paginator__link">3</a>
                             </li>
                             <li class="paginator__item">
                                 <a href="#" class="paginator__link">4</a>
@@ -228,8 +240,8 @@
             <div class="container">
                 <div class="footer__content">
                     <div class="footer__col">
-                        <div class="logo footer__logo">
-                            <a href="#" class="logo__link">
+                        <div class="logo logo--main footer__logo">
+                            <a href="./welcome.html" class="logo__link">
                                 <img src="img/logo.png" alt="logo" class="logo__img">
                             </a>
                         </div>
@@ -242,7 +254,7 @@
                                     <a href="./service.html" class="menu__link">Услуги</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">Отзывы</a>
+                                    <a href="./reviews.html" class="menu__link">Отзывы</a>
                                 </li>
                             </ul>
                         </nav>
