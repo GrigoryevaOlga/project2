@@ -1,0 +1,24 @@
+.preview {
+    margin-bottom: 242px;
+    left: 0;
+}
+
+.preview__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 333px;
+    width: 67%;
+}
+
+.preview__title {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    width: 511px;
+}
+
+.preview__text {
+    font-size: 18px;
+    line-height: 20px;
+}

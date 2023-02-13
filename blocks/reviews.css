@@ -1,0 +1,21 @@
+
+.reviews__paginator .paginator__display {
+    padding-left: 10px;
+}
+
+.reviews-title {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    margin-bottom: 32px;
+}
+
+.reviews__list {
+    column-count: 2;
+    column-gap: 27px;
+    margin-bottom: 53px;
+}
+
+.reviews__item {
+    margin-bottom: 17px;
+}

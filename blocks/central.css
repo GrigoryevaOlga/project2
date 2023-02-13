@@ -1,0 +1,21 @@
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__logo {
+    margin-bottom: 5px;
+}
+
+.central__text {
+    margin-bottom: 44px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.central--asia {
+    opacity: 0;
+    animation: zoom 0.9s forwards;
+}

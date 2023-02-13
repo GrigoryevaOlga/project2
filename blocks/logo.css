@@ -1,0 +1,20 @@
+.logo {
+    display: block;
+    margin-right: 66px;
+    width: 98px;
+    height: 42px;
+}
+
+.logo--main {
+    width: 85px;
+    height: 36px;
+    margin-right: 79px;
+}
+
+.logo__link {
+    display: block;
+}
+
+.logo__img {
+    max-width: 100%;
+}
