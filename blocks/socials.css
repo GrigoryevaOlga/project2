@@ -28,10 +28,6 @@
     display: block;
     width: 36px;
     height: 36px;
-    position: absolute;
-    top: 50%;
-    left: 63%;
-    transform: translate(-50% -50%);
     background: url('../img/sprites.png') -10px -66px;
 }
 
@@ -44,10 +40,6 @@
     display: block;
     width: 36px;
     height: 36px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
     background: url('../img/sprites.png') -122px -10px;
 }
 
@@ -60,10 +52,6 @@
     display: block;
     width: 36px;
     height: 36px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
     background: url('../img/sprites.png') -10px -10px;
 }
 
@@ -76,10 +64,6 @@
     display: block;
     width: 36px;
     height: 36px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
     background: url('../img/sprites.png') -10px -122px;
 }
 
